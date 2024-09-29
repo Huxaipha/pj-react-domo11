@@ -1,0 +1,448 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      },
+      {
+        "id": 1,
+        "name": "Syltherine",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "Rp 3,500,000",
+        "discount": "30%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_1_lhsnwg.png"
+      },
+      {
+        "id": 2,
+        "name": "Leviosa",
+        "description": "Stylish cafe chair",
+        "price": "Rp 2,500,000",
+        "originalPrice": "",
+        "discount": "",
+        "tagColor": "",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_5_d8eyq0.png"
+      },
+      {
+        "id": 3,
+        "name": "Lolito",
+        "description": "Luxury big sofa",
+        "price": "Rp 7,000,000",
+        "originalPrice": "Rp 14,000,000",
+        "discount": "50%",
+        "tagColor": "bg-red-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_6_s1yxyz.png"
+      },
+      {
+        "id": 4,
+        "name": "Respira",
+        "description": "Outdoor bar table and stool",
+        "price": "Rp 500,000",
+        "originalPrice": "",
+        "discount": "new",
+        "tagColor": "bg-green-500",
+        "image": "https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137812/Images_7_nfefaj.png"
+      }
+      
+    ]
+  }
+  
