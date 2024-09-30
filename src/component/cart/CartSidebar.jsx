@@ -1,5 +1,3 @@
-import { useContext } from 'react';  
-import { CartContext } from '../../component/context/CartContext';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { useNavigate } from 'react-router-dom';
 
@@ -15,7 +13,7 @@ const CartSidebar = ({ isOpen, toggleSidebar, cartItems = [], removeFromCart, to
     <>
       {/* Overlay Section */}
       <div
-        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 ${
+        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 z-40 ${
           isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
         onClick={toggleSidebar} // Close sidebar when clicking outside
@@ -23,7 +21,7 @@ const CartSidebar = ({ isOpen, toggleSidebar, cartItems = [], removeFromCart, to
 
       {/* Sidebar Section */}
       <div
-        className={`fixed top-0 right-0 bg-white shadow-xl w-[25vw] transition-transform transform rounded-lg ${
+        className={`fixed top-0 right-0 bg-white shadow-xl w-[25vw] transition-transform transform rounded-lg z-50 ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
         style={{ maxHeight: 'calc(100vh - 100px)' }} // Limit the height to prevent overflow
@@ -40,7 +38,7 @@ const CartSidebar = ({ isOpen, toggleSidebar, cartItems = [], removeFromCart, to
         <div className="p-4 flex-1 overflow-y-auto">
           <ul className="space-y-4">
             {cartItems.map((item) => (
-              <li key={item.id} className="flex justify-between items-center">
+              <li key={item.name} className="flex justify-between items-center">
                 {/* Product Image and Details */}
                 <div className="flex items-center space-x-4">
                   <img src={item.image} alt={item.name} className="w-16 h-16 rounded-md object-cover" />
@@ -52,7 +50,7 @@ const CartSidebar = ({ isOpen, toggleSidebar, cartItems = [], removeFromCart, to
                 {/* Remove Button */}
                 <button
                   className="text-red-500"
-                  onClick={() => removeFromCart(item.id)}
+                  onClick={() => removeFromCart(item.name)} // Use name instead of id
                 >
                   <XMarkIcon className="h-5 w-5" />
                 </button>
@@ -74,7 +72,7 @@ const CartSidebar = ({ isOpen, toggleSidebar, cartItems = [], removeFromCart, to
             <div className="flex justify-between space-x-2">
               <button onClick={() => handleNavigation('/cart')} className="w-full border border-black rounded-full py-2">Cart</button>
               <button onClick={() => handleNavigation('/checkout')} className="w-full border border-black rounded-full py-2">Checkout</button>
-              <button onClick={() => handleNavigation('/comparison')} className="w-full border border-black rounded-full py-2">Comparison</button>
+              <button onClick={() => handleNavigation('/compare')} className="w-full border border-black rounded-full py-2">Comparison</button> {/* Fixed route to '/compare' */}
             </div>
           </div>
         )}

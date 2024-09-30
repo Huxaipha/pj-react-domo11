@@ -125,7 +125,9 @@ export default Furniture;
 
 //       {/* Custom Image Layout */}
 //       <div className="container mx-auto px-4">
-//         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+//         {/* Layout with four columns */}
+//         <div className="flex flex-wrap justify-between">
+
 //           {/* First Column (Left-aligned) */}
 //           <div className="flex flex-col space-y-4">
 //             <Image
@@ -146,8 +148,8 @@ export default Furniture;
 //             </Image>
 //           </div>
 
-//           {/* Second Column (Under First) */}
-//           <div className="flex flex-col space-y-4">
+//           {/* Second Column (Under First Column with alignment) */}
+//           <div className="flex flex-col space-y-4 justify-end">
 //             <Image
 //               className="w-[350px] h-[300px] object-cover rounded-lg"
 //               cloudName="dfo4alc3w"
@@ -179,7 +181,7 @@ export default Furniture;
 //           </div>
 
 //           {/* Fourth Column (Right-aligned) */}
-//           <div className="flex flex-col space-y-4">
+//           <div className="flex flex-col space-y-4 items-end">
 //             <Image
 //               className="w-[260px] h-[320px] object-cover rounded-lg"
 //               cloudName="dfo4alc3w"
@@ -197,7 +199,7 @@ export default Furniture;
 //               <Transformation crop="scale" width="200" />
 //             </Image>
 
-//             {/* Row for the last two images in the fourth column */}
+//             {/* Last row for two small images */}
 //             <div className="flex space-x-4">
 //               <Image
 //                 className="w-[150px] h-[220px] object-cover rounded-lg"
@@ -224,6 +226,7 @@ export default Furniture;
 // };
 
 // export default Furniture;
+
 
 
 

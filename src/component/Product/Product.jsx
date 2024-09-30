@@ -252,12 +252,12 @@ const Product = () => {
 
       {/* Show more button */}
       {!showMore && (
-        <div className="text-center mt-8">
+        <div className="flex justify-center items-center text-center mt-8">
           <button
-            className="bg-blue-500 text-white px-6 py-2 rounded-lg"
+            className="border border-yellow-400 text-yellow-300 px-6 py-2 rounded-lg hover:bg-yellow-600 hover:text-white transition-colors duration-300 flex items-center"
             onClick={() => setShowMore(true)}
           >
-            Show More Products
+            Show More 
           </button>
         </div>
       )}

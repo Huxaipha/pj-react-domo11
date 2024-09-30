@@ -33,15 +33,15 @@ const products = [
   },
   {
     name: 'Lolito',
-    price: 'Rp 7.000.000',
-    originalPrice: 'Rp 14.000.000',
+    price: 'Rp 7,000,000',
+    originalPrice: 'Rp 14,000,000',
     discount: '50%',
     image: 'https://res.cloudinary.com/dfo4alc3w/image/upload/v1726137829/image_3_pkyjwe.png',
     description: 'Luxury big sofa',
   },
   {
     name: 'Respira',
-    price: 'Rp 500.000',
+    price: 'Rp 500,000',
     originalPrice: null,
     discount: 'New',
     tagColor: 'bg-green-400',
@@ -51,11 +51,11 @@ const products = [
 ];
 
 function App() {
-  const [cart, setCart] = useState([]);
-  const [compareList, setCompareList] = useState([]); // State for comparison products
-  const [isCartOpen, setIsCartOpen] = useState(false); // Control cart sidebar visibility
+  const [cart, setCart] = useState([]); // Cart state
+  const [compareList, setCompareList] = useState([]); // Comparison state
+  const [isCartOpen, setIsCartOpen] = useState(false); // Sidebar visibility state
 
-  // Function to add a product to the cart
+  // Add product to cart
   const addToCart = (product) => {
     const exists = cart.find((item) => item.name === product.name);
     if (exists) {
@@ -68,22 +68,22 @@ function App() {
     setIsCartOpen(true); // Open the cart sidebar when a product is added
   };
 
-  // Function to remove a product from the cart
+  // Remove product from cart
   const removeFromCart = (productName) => {
     setCart(cart.filter((item) => item.name !== productName));
   };
 
-  // Function to add a product to the compare list
+  // Add product to comparison list
   const addToCompare = (product) => {
     setCompareList((prev) => {
       if (!prev.some((item) => item.name === product.name)) {
         return [...prev, product];
       }
-      return prev; // Do not add duplicates
+      return prev; // Avoid adding duplicate products
     });
   };
 
-  // Function to toggle the cart sidebar
+  // Toggle the cart sidebar visibility
   const toggleSidebar = () => {
     setIsCartOpen(!isCartOpen);
   };
@@ -92,23 +92,46 @@ function App() {
     <UserProvider>
       <CompareProvider>
         <Router>
+          {/* Navbar */}
           <Navbar cart={cart} />
+
+          {/* Cart Sidebar */}
           <CartSidebar
             isOpen={isCartOpen}
             toggleSidebar={toggleSidebar}
             cartItems={cart}
             removeFromCart={removeFromCart}
-            totalAmount={cart.reduce((total, item) => total + parseFloat(item.price.replace(/[Rp ,]/g, '')) * item.quantity, 0)}
+            totalAmount={cart.reduce(
+              (total, item) => total + parseFloat(item.price.replace(/[Rp ,]/g, '')) * item.quantity,
+              0
+            )}
           />
+
+          {/* Routes */}
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/shop' element={<Shop addToCart={addToCart} addToCompare={addToCompare} />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/blog' element={<Blog />} />
-            <Route path='/cart' element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
-            <Route path='/product/:productName' element={<Singleproduct products={products} addToCart={addToCart} addToCompare={addToCompare} />} />
-            <Route path='/compare' element={<Comparepage compareList={compareList} />} />
-            <Route path='/checkout' element={<Checkout />} />
+            <Route path="/" element={<Home />} />
+            <Route
+              path="/shop"
+              element={<Shop addToCart={addToCart} addToCompare={addToCompare} />}
+            />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route
+              path="/cart"
+              element={<Cart cart={cart} removeFromCart={removeFromCart} />}
+            />
+            <Route
+              path="/product/:productName"
+              element={
+                <Singleproduct
+                  products={products}
+                  addToCart={addToCart}
+                  addToCompare={addToCompare}
+                />
+              }
+            />
+            <Route path="/compare" element={<Comparepage compareList={compareList} />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </Router>
       </CompareProvider>
